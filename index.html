@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+  <body>
+
+
+    <div class="header">
+      <div class="left-head">CSS selectors</div>
+      <div class="right-head">Examples of a few style patterns</div>
+    </div>
+
+
+    <br><br><br>
+
+    <div class="examples">
+
+      <div class="leftex">
+
+        <div class="title">Links/buttons/form examples</div>
+        <hr>
+
+          <div class="subtitle">:hover</div>
+          <div class="hoverthing"></div>
+
+          <br>
+
+          <div class="subtitle">:disabled</div>
+          <form action="">
+            Enabled text input: <input type="text" value="enabled"><br>
+            Disabled text input: <input type="text" value="disabled" disabled><br>
+            Enabled button: <input type="button" value="enabled"><br>
+            Disabled button: <input type="button" value="disabled" disabled><br>
+            Enabled checkbox: <input type="checkbox" value="enabled"><br>
+            Disabled checkbox: <input type="checkbox" value="disabled" disabled><br>
+          </form>
+
+          <br>
+
+          <div class="subtitle">:active</div>
+          <a href="#">this link is styled when active (clicked)</a>
+
+      </div>
+
+
+      <div class="rightex">
+
+        <div class="title">Text examples</div>
+        <hr>
+
+          <div class="subtitle">:nth-of-type(an+b)</div>
+          <p class="fotp">This is a sample sentence in which every nth element can be styled</p>
+          <p class="fotp">This is a sample sentence in which every nth element can be styled</p>
+          <p class="fotp">This is a sample sentence in which every nth element can be styled</p>
+          <p class="fotp">This is a sample sentence in which every nth element can be styled</p>
+          <p class="fotp">This is a sample sentence in which every nth element can be styled</p>
+          <p class="fotp">This is a sample sentence in which every nth element can be styled</p>
+
+          <br>
+
+          <div class="subtitle">::first-letter</div>
+          <p class="flep">This is a sample sentence in which the "first-letter" selector is used to style the first letter in this div</p>
+
+          <br>
+
+          <div class="subtitle">::first-line</div>
+          <p class="flip">The first line of this paragraph will be styled using the "first-line" element. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <br>
+
+          <div class="subtitle">::selection</div>
+          <p class="sp">This text will only be styled (in the same green as previous elements) when any part of this it is selected or highlighted</p>
+
+          <br>
+
+          <div class="subtitle">::before</div>
+          <p class="bp">Every element will be preceded by the same addition.</p>
+          <p class="bp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <p class="bp">Massa ultricies mi quis hendrerit dolor magna.</p>
+
+          <br>
+
+          <div class="subtitle">::after</div>
+          <p class="ap">Every element will be followed by the same addition.</p>
+          <p class="ap">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <p class="ap">Massa ultricies mi quis hendrerit dolor magna.</p>
+
+        </div>
+
+    </div>
+
+
+  </body>
+</html>

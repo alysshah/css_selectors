@@ -1,0 +1,101 @@
+html, body {
+  padding: 0px 0;
+  padding-bottom: 30px;
+}
+
+.header {
+  padding: 30px 30px;
+}
+
+.left-head {
+  font-size: 45px;
+  align-items: flex-start;
+  font-weight: bold;
+}
+
+.right-head {
+  font-size: 35px;
+}
+
+.examples {
+  padding: 0px 30px;
+  display: flex;
+}
+
+.leftex {
+  align-content: flex-start;
+  width: 180vh;
+  padding-right: 50px;
+}
+
+.rightex {
+  align-content: flex-end;
+}
+
+.title {
+  font-size: 30px;
+  font-style: italic;
+}
+
+hr {
+  border: 2px solid black;
+  margin: 10px 20;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  margin: 0px 0;
+}
+
+.hoverthing, .disabled {
+  background-color: gray;
+  width: 80px;
+  height: 40px;
+}
+
+.hoverthing:hover {
+  background-color: #98b5a0;
+  width: 80px;
+  height: 40px;
+}
+
+/* input:enabled {
+  background: ;
+} */
+
+input:disabled {
+  background: #dddddd;
+}
+
+a:active {
+  background-color: #98b5a0;
+  color: black;
+}
+
+p.fotp:nth-of-type(2n+1) {
+  background-color: #98b5a0;
+}
+
+p.flep::first-letter {
+  background-color: #98b5a0;
+}
+
+p.flip::first-line {
+  background-color: #98b5a0;
+}
+
+p.sp::selection {
+  background-color: #98b5a0;
+}
+
+p.bp::before {
+  content: "added text - ";
+}
+
+p.ap::after {
+  content: " - added text";
+}
